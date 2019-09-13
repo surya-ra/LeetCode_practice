@@ -32,10 +32,13 @@ class LinkedList:
 		else:
 			print("empty Node")
 		"""
+
+
 if __name__ == '__main__':
+	take_it = [1,6,2,4]
 	mylist = LinkedList()
-	mylist.append(1)
-	mylist.append(4)
-	mylist.append(3)
+	for lst in take_it:
+		mylist.append(lst)
+	
 	mylist.display()
 	
