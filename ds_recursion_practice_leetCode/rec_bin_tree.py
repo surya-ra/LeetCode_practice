@@ -55,12 +55,13 @@ root.left.left  = Node(4)
 root.left.right  = Node('-')
 root.right  = Node(5)
 root.left.right.left = Node(7)
-root.left.right.right = Node(2) 
-print "Preorder traversal of binary tree is"
+root.left.right.right = Node(2)
+""" 
+print ("Preorder traversal of binary tree is")
 printPreorder(root) 
   
-print "\nInorder traversal of binary tree is"
+print ("Inorder traversal of binary tree is")
 printInorder(root) 
-  
-print "\nPostorder traversal of binary tree is"
+  """
+print ("\nPostorder traversal of binary tree is")
 printPostorder(root)
