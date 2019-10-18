@@ -40,7 +40,7 @@ Each emails[i] contains exactly one '@' character.
 All local and domain names are non-empty.
 Local names do not start with a '+' character.
 """
-
+#Concept of handling set and split string
 class Solution:
     def numUniqueEmails(self, emails: List[str]) -> int:
         hold_mails = set()
